@@ -35,3 +35,4 @@ let someNumber = 10;
 let stringNumber = String(someNumber);
 console.log(stringNumber);         // "10"
 console.log(typeof stringNumber);  // string
+``
