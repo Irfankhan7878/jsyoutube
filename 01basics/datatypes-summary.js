@@ -33,4 +33,29 @@ const soreValue = 100.3
      console.log(typeof anotherId  );
 
 
-     // function ka typeoff function hi aata ha or undefined ka undefined hi baki type of jiska dekhna ho check kr sakte h ese hi 
+     // function ka typeoff function hi aata ha or undefined ka undefined hi baki type of jiska dekhna ho check kr sakte h ese hi
+     
+     // ,,,,,,,,,,,,,,,,,,,,  
+
+     // Stack(Primitive ), isme copy hojati ha values ki  or change hoti rhti h values 
+     //  Heap (Non- Priomitive) // isme jb chnage krke ha to original value me chnage hota ha by refrence se 
+
+     let myYoutubename = "Irfan khan"
+
+     let anothername = myYoutubename
+     anothername = "Raju"
+     
+
+      console.log(myYoutubename);
+      console.log(anothername);
+
+      let userOne = {
+        email: "ikan13545@gmail.com",
+        upi: "user@pybl"
+      }
+
+     let userTwo = userOne
+      
+     userTwo.email = "ikan13545@gmail.com",
+      console.log(userOne.email);
+      console.log(userTwo.email);
